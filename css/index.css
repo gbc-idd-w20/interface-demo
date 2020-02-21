@@ -1,0 +1,28 @@
+.face {
+  /* background-color: tomato; */
+  width: 40em;
+  height: 25.83333em;
+  margin: auto;
+  background-image:url('../img/gbc.png');
+  background-size: cover;
+}
+.coder {
+  /* background-color: gold; */
+  width: 50%;
+  max-width: 100%; /* duh */
+  height: 100%;
+  margin-left: auto;
+  /* Using box-shadow to remind myself that the gold element is inside of (above) the parent */
+  /* box-shadow: 0 0 2em black; */
+  position: relative;
+  overflow: hidden;
+}
+.logo {
+  height: 100%;
+  max-width: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  filter: grayscale(100%);
+  display: block;
+}
